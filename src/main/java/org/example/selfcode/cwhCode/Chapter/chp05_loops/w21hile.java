@@ -1,0 +1,39 @@
+package org.example.selfcode.cwhCode.Chapter.chp05_loops;
+
+public class w21hile {
+    
+/*
+int i =4;
+while (Boolean condition)
+
+{
+
+            // Statements    -> This keeps executing as long as the condition is true.
+            // logic
+}
+// */
+// int i=19; 
+// while(i>0){  
+// System.out.println(i);  
+// i--;  
+// }  
+
+
+    public static void main(String[] args) {
+        System.out.println(1);
+        System.out.println(2);
+        System.out.println(3);
+
+        System.out.println("Using Loops:");
+        int i = 100;
+        while(i<=200){
+            System.out.println(i);
+            i++;
+        }
+        System.out.println("Finish Running While Loop!");
+
+//        while(true){
+//            System.out.println("I am an infinite while loop!");
+//        }
+    }
+}
