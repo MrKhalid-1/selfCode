@@ -7,10 +7,10 @@ public class reversestring {
     public static void main(String[] args) {
         String str = "khalid";
         out.println("me hlina");
-        out.println(reversestring(str));
+        out.println(revers(str));
     }
 
-    public static String reversestring(String in) {
+    public static String revers(String in) {
         if (in == null) {
             out.println("string is the null");
             return "";

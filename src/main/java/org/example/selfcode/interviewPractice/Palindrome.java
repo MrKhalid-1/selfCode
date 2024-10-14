@@ -1,9 +1,14 @@
 package org.example.selfcode.interviewPractice;
 
-public class palindrome {
+public class Palindrome {
     public static void main(String[] args) {
         String s = "12321";
-        System.out.println(palindrome(s));
+//        System.out.println(palindrome(s));
+    String  str = "A Plalp a";
+        String cleaned = str.replaceAll("[\\W]", "").toLowerCase();
+        String reversed = new StringBuilder(cleaned).reverse().toString();
+        System.out.println(cleaned.equals(reversed));
+        System.out.println(cleaned);
     }
 
     public static boolean palindrome(String s){

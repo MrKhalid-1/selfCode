@@ -19,7 +19,7 @@ package org.example.selfcode.cwhCode.Chapter.chp16_advance_java2;
          * @param i This is the first number to add
          * @param j This is the second number to add
          * @return Sum of two numbers as an integer
-         * @throws Exception if i is 0
+         * @throws Exception if
          * @deprecated This method is deprecated please use + Operator
          */
         public int add(int i, int j) throws Exception{

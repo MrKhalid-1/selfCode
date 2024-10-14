@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp08_intro_opps;
 
-public class b37asic_terminologies {
+public class basicTerminology37_02 {
     public static void main(String[] args) {
  /*
     Four pillars of Object-Oriented-Programming Language :

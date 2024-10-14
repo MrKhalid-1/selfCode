@@ -2,7 +2,7 @@ package org.example.selfcode.interviewPractice;
 
 import static java.lang.System.out;
 
-public class reversestring {
+public class reversString {
     public static void main(String[] args) {
         String m = "khalid";
         StringBuilder stringBuilder = new StringBuilder();
