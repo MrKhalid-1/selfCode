@@ -35,8 +35,11 @@ public class Array {
 //        array.duplicateArray(arr);
 //        array.reverseArray(arr);
 //        array.sort(arr);
+//        array.reverseSort(arr);
+        array.sum(arr);
 //        array.oddEven(arr);
-        array.smallest(arr);
+//        array.smallest(arr);
+//        array.largestSquineceNumber(arr);
 
     }
 
@@ -96,7 +99,7 @@ public class Array {
 
     public void smallest(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
-            int temp = arr[arr.length-1];
+            int temp = arr[arr.length - 1];
 //            System.out.println(temp);
             if (arr[i] <= temp) {
                 temp = arr[i];
@@ -104,7 +107,48 @@ public class Array {
             }
         }
     }
+
+    public void largestSquineceNumber(int[] arr) {
+        int temp;
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = 0; j < arr.length - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+        System.out.println("Array largest number : " + arr[arr.length-1] );
+        System.out.println("Array 2nd largest number : " + arr[arr.length-2] );
+        System.out.println("Array 3rd largest number : " + arr[arr.length-3] );
+    }
+
+    public void reverseSort(int [] arr){
+        int temp;
+        for(int i =0 ; i <= arr.length-1;i++){
+            for (int j = 0 ; j < arr.length-1 ;j++){
+                if (arr[j] < arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public void sum(int [] arr){
+        int sum = 0;
+        for(int i = 0; i <= arr.length-1;i++){
+            sum +=arr[i];
+            System.out.println(sum);
+        }
+
+    }
 }
+
+
 //    Java Program to find the frequency of each element in the array
 //Java Program to print the duplicate elements of an array
 //        int[] ar = {1, 2, 2, 3, 4, 5, 5, 3, 2, 2, 2, 2};
