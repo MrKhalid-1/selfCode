@@ -1,9 +1,8 @@
-package org.example.selfcode.cwhCode.Chapter.chp01_variables_and_datatype;
+package org.example.selfcode.cwhCode.Chapter.chp01VariablesDatatype;
+
 import java.util.Scanner;
 
-public class p7raticeset {
-    
-
+public class praticeset_07 {
 
 
     public static void main(String[] args) {
