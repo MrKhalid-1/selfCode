@@ -1,4 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp02_operators_and_expression;
+package org.example.selfcode.cwhCode.Chapter.chp02OperatorsExpression;
 
 public class a9ssociativityofoper {
     public static void main(String[] args) {

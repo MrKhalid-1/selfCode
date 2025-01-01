@@ -28,6 +28,22 @@ public class self {
             System.out.println(l);
         }
         scanner.close();
-    }
 
+
+//    DooBeeDooBeeDo
+
+//    Fill in the missing code:
+//    public class DooBee {
+        int q = 1;
+        while (q < 3) {
+            System.out.print("Doo");
+            System.out.print("Bee");
+            q = q + 1;
+        }
+//        if (q == 3) {
+        if (3 == 3) {
+            System.out.print("Do");
+        }
+    }
 }
+
