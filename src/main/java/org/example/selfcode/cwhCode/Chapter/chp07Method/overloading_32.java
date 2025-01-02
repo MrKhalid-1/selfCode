@@ -1,6 +1,10 @@
 package org.example.selfcode.cwhCode.Chapter.chp07Method;
+/**
+ * In Java, it is possible for a class to contain two or more methods with the same name but with different parameters.
+ *  Such methods are called Overloaded methods.
+ *  Method overloading cannot be performed by changing the return type of methods.
+ */
 
-// Method overloading cannot be performed by changing the return type of methods.
 public class overloading_32 {
 
     static void foo(){
@@ -28,23 +32,30 @@ public class overloading_32 {
     static void change2(int [] arr){
         arr[0] = 98;
     }
+
     static void tellJoke(){
         System.out.println("I invented a new word!\n" +
                 "Plagiarism!");
     }
 
+    public int getLost(int a , int b){
+        return 43;
+    }
+
     public static void main(String[] args) {
-        // tellJoke();
+//         tellJoke();
+         overloading_32 overloading = new overloading_32();
+//         overloading.getLost(3,4);
 
         // Case 1: Changing the Integer
-        //int x = 45;
-        //change(x);
-        //System.out.println("The value of x after running change is: " + x);
+        int a = 45;
+//        change(a);
+//        System.out.println("The value of x after running change is: " + a);
 
         // Case 1: Changing the Array
-        // int [] marks = {52, 73, 77, 89, 98, 94};
-        // change2(marks);
-        // System.out.println("The value of x after running change is: " + marks[0]);
+         int [] marks = {52, 73, 77, 89, 98, 94};
+//         change2(marks);
+//         System.out.println("The value of x after running change is: " + marks[0]);
 
 
         // Method Overloading
@@ -52,17 +63,9 @@ public class overloading_32 {
         foo(3000);
         foo(3000, 4000);
         // Arguments are actual!
-
-
     }
-
-
-
-
 }
 
-
-// In Java, it is possible for a class to contain two or more methods with the same name but with different parameters. Such methods are called Overloaded methods.
 // Method overloading is used to increase the readability of the program.
 // void foo()
 // void foo(int a)	//Overloaded function foo

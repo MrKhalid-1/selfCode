@@ -1,27 +1,28 @@
 package org.example.selfcode.cwhCode.Chapter.chp07Method;
 
 public class methods_31 {
-  /*       returnType nameOfMethod() {
+  /**
+   * modifier returnType methodName(parameterList) {
+   *     // Method body
+   *     // Code to execute
+   *     return value; // If returnType is not void
+   * }
+   *
+   *
+   *  returnType nameOfMethod() {
            Method body
-           }                                  */ 
-        
-
-    
-    static int logic(int x, int y){
+      }
+   */
+    static int logic(int x, int y) {
         int z;
-        if(x>y){
-            z = x+y;
-        }
-        else {
-            z = (x +y) * 5;
+        if (x > y) {
+            z = x + y;
+        } else {
+            z = (x + y) * 5;
         }
         x = 566;
         return z;
     }
-
-
-
-
 
     public static void main(String[] args) {
         int a = 5;
@@ -31,7 +32,7 @@ public class methods_31 {
         //cwh_31_methods obj = new cwh_31_methods();
         //c = obj.logic(a, b);
         c = logic(a, b);
-        System.out.println(a + " "+ b);
+        System.out.println(a + " " + b);
         int a1 = 2;
         int b1 = 1;
         int c1;
