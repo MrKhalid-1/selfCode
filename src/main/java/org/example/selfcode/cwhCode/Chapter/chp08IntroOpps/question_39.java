@@ -1,57 +1,66 @@
 package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps;
 
-class Employee1{
+class Employee1 {
     int salary;
     String name;
 
-    public int getSalary(){
+    public int getSalary() {
         return salary;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public void setName(String n){
+
+    public void setName(String n) {
         name = n;
     }
 }
 
-class CellPhone{
-    public void ring(){
+class CellPhone {
+    public void ring() {
         System.out.println("Ringing...");
     }
-    public void vibrate(){
+
+    public void vibrate() {
         System.out.println("Vibrating...");
     }
-    public void callFriend(){
+
+    public void callFriend() {
         System.out.println("Calling Mukul...");
     }
 
 }
 
-class Square{
+class Square {
     int side;
-    public int area(){
-        return side*side;
+
+    public int area() {
+        return side * side;
     }
-    public int perimeter(){
-        return 4*side;
+
+    public int perimeter() {
+        return 4 * side;
     }
 }
 
-class Tommy{
-    public void hit(){
+class Tommy {
+    public void hit() {
         System.out.println("Hitting the enemy");
     }
-    public void run(){
+
+    public void run() {
         System.out.println("Running from the enemy");
     }
-    public void fire(){
+
+    public void fire() {
         System.out.println("Firing on the enemy");
     }
 }
+
 public class question_39 {
 
-    
+
     public static void main(String[] args) {
         // Problem 1
         Employee1 harry = new Employee1();
@@ -82,4 +91,4 @@ public class question_39 {
 
 
     }
-    }
+}

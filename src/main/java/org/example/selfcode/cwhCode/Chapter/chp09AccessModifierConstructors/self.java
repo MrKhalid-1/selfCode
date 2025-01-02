@@ -15,15 +15,16 @@ package org.example.selfcode.cwhCode.Chapter.chp09AccessModifierConstructors;
 //    CWH1 obj1 = new CWH1();
 //    CWH1 obj2 = new CWH1("khalid",45);
 
-class emp{
+class emp {
     int id;
     int salary;
     String name;
 
-    emp(){
+    emp() {
         System.out.println("jindala");
     }
-    emp(int a){
+
+    emp(int a) {
         System.out.println(a);
     }
 
@@ -35,17 +36,20 @@ class emp{
         this.name = name;
     }
 
-    public int getid(){
+    public int getid() {
         return id;
     }
-    public void setid(int i){
+
+    public void setid(int i) {
         this.id = i;
     }
 }
+
 public class self {
     public static void main(String[] args) {
         emp em = new emp();
         emp emw = new emp(3);
-em.setName("khalid");
+        em.setName("khalid");
         System.out.println(em.getName());
-}}
+    }
+}

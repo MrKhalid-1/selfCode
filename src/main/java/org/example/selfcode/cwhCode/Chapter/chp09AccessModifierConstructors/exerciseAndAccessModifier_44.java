@@ -1,8 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp09AccessModifierConstructors;
 
-
-
-class Cylinder{
+class Cylinder {
     private int radius;
     private int height;
 
@@ -26,17 +24,17 @@ class Cylinder{
     public void setHeight(int height) {
         this.height = height;
     }
-    public double surfaceArea(){
-        return 2* Math.PI* radius * radius + 2*Math.PI*radius*height;
+
+    public double surfaceArea() {
+        return 2 * Math.PI * radius * radius + 2 * Math.PI * radius * height;
     }
-    public double volume(){
+
+    public double volume() {
         return Math.PI * radius * radius * height;
     }
-
-
 }
 
-class Rectangle{
+class Rectangle {
     private int length;
     private int breadth;
 
@@ -58,32 +56,27 @@ class Rectangle{
         return breadth;
     }
 }
+
 public class exerciseAndAccessModifier_44 {
- 
+
 
     public static void main(String[] args) {
-        /*
-        // Problem 1
-        Cylinder myCylinder = new Cylinder(9, 12);
-        //myCylinder.setHeight(12);
-        System.out.println(myCylinder.getHeight());
-        //myCylinder.setRadius(9);
-        System.out.println(myCylinder.getRadius());
-        // Problem 2
-        System.out.println(myCylinder.surfaceArea());
-        System.out.println(myCylinder.volume());
+        /**
+         *   // Problem 1
+         *         Cylinder myCylinder = new Cylinder(9, 12);
+         *         //myCylinder.setHeight(12);
+         *         System.out.println(myCylinder.getHeight());
+         *         //myCylinder.setRadius(9);
+         *         System.out.println(myCylinder.getRadius());
+         *         // Problem 2
+         *         System.out.println(myCylinder.surfaceArea());
+         *         System.out.println(myCylinder.volume());
          */
-
 
         // Problem 3
         Rectangle r = new Rectangle(12, 56);
         System.out.println(r.getLength());
         System.out.println(r.getBreadth());
-
-
-
-
-
 
 
     }

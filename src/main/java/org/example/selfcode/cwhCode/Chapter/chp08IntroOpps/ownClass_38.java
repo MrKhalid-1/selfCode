@@ -1,19 +1,30 @@
 package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps;
-class Employee{
+
+class Student {
+    int name;
+    Boolean e = Boolean.TRUE;
+
+    void empire(int a, int... es) {
+        System.out.println("who i am what i looking for you");
+    }
+}
+
+class Employee {
     int id;
     int salary;
     String name;
-    public void printDetails(){
+
+    public void printDetails() {
         System.out.println("My id is " + id);
-        System.out.println("and my name is "+ name);
+        System.out.println("and my name is " + name);
     }
 
-    public int getSalary(){
+    public int getSalary() {
         return salary;
     }
 }
 
-public class ownClass_38 {
+ class ownClass_38 {
 
     public static void main(String[] args) {
         System.out.println("This is our custom class");
