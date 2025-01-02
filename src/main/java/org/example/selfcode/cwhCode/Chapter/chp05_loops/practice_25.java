@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp05_loops;
 
-public class p25ractice {
+public class practice_25 {
     
 
         public static void main(String[] args) {

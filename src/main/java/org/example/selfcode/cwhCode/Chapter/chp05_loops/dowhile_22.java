@@ -1,18 +1,19 @@
 package org.example.selfcode.cwhCode.Chapter.chp05_loops;
 
-public class d22o_while {
-    /* do {
+public class dowhile_22 {
+    /**
+     *  do {
+     *      //code
+     * } while (condition);      //Note this semicolon
+     */
 
-            //code
-
-} while (condition);            //Note this semicolon */
-
-// int i=1;  
-// do{  
-// System.out.println(i);  
-// i++;  
-// }while(i<=10); 
-
+    /**
+     *  int i=1;
+     *  do{
+     *       System.out.println(i);
+     *        i++;
+     *  }while(i<=10);
+     */
 
     public static void main(String[] args) {
 //        int a = 0;
@@ -23,14 +24,14 @@ public class d22o_while {
         int b = 10;
         do {
             System.out.println(b);
-            b++;
-        }while(b<5);
+            b--;
+        } while (b > 5);
 
         int c = 1;
-        do{
+        do {
             System.out.println(c);
             c++;
-        }while(c<=5);
+        } while (c <= 5);
 
     }
 }

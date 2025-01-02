@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp05_loops;
 
-public class b24reak_continue {
+public class breakContinue_24 {
     
     // public static void main(String[] args) {  
     //     //using for loop  

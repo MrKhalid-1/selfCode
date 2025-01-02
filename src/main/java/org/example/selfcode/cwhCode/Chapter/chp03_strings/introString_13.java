@@ -1,7 +1,9 @@
 package org.example.selfcode.cwhCode.Chapter.chp03_strings;
 import java.util.Scanner;
 
-public class i13ntro_string {
+public class introString_13 {
+    //TODO In Java, string is basically an object that represents sequence of char values.
+    // An array of characters works same as Java string
     public static void main(String[] args) {
         // String name = new String("Harry");
         // String name = "Harry";

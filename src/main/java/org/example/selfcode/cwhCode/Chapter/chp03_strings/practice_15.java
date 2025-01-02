@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp03_strings;
 
-public class p15ractice {
+public class practice_15 {
     
         public static void main(String[] args) {
             // Problem 1

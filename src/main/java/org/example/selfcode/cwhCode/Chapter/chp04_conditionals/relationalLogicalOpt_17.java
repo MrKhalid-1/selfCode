@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp04_conditionals;
 
-public class r17elational_logical_opt {
+public class relationalLogicalOpt_17 {
     
 
     public static void main(String[] args) {
