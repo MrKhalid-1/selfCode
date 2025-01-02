@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp02OperatorsExpression;
 
-public class a9ssociativityofoper {
+public class associativityOfOperator_09 {
     public static void main(String[] args) {
         // Precedence & Associativity
 

@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp02OperatorsExpression;
 
-public class p12racticeset {
+public class practiceSet_12 {
     
 
 // float a = 7/4 * 9/2

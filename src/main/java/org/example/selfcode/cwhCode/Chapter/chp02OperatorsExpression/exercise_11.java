@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 
-public class e11xercise1 {
+public class exercise_11 {
     
 
 

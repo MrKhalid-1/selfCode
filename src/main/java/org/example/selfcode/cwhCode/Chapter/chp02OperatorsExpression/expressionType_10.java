@@ -1,6 +1,6 @@
 package org.example.selfcode.cwhCode.Chapter.chp02OperatorsExpression;
 
-public class e10xpressiontype {
+public class expressionType_10 {
     public static void main(String[] args) {
         /* byte x = 5;
         int y = 6;

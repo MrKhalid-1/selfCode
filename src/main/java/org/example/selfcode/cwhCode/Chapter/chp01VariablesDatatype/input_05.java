@@ -35,6 +35,7 @@ public class input_05 {
                int age1 = Integer.parseInt(reader.readLine());
 
                System.out.println("Hello, " + name + ". You are " + age + " years old.");
+
            }
     /**
      * TODO Summary :
@@ -44,4 +45,5 @@ public class input_05 {
      * Network Input	Socket, BufferedReader	Reading from a network stream.
      * Command-Line Arguments	Command-line arguments array (args[])	Passing arguments at runtime.
      */
+
 }
