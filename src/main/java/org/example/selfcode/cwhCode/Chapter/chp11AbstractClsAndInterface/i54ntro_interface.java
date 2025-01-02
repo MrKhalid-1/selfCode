@@ -1,4 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp11_abstract_cls_and_interface;
+package org.example.selfcode.cwhCode.Chapter.chp11AbstractClsAndInterface;
 
     
 /*

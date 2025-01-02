@@ -3,48 +3,55 @@ package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps.example;
     Abstraction is one of the four fundamental Object-Oriented Programming (OOP) concepts in Java.
     It allows you to hide the complex implementation details and show only the essential features of an object.
      By using abstraction, you can simplify complex systems and reduce code duplication.
-
     In Java, abstraction can be achieved using abstract classes and interfaces.
-
-    Abstract Class Example
-    An abstract class is a class that cannot be instantiated, meaning you cannot create an object of
-    an abstract class. It can have abstract methods (methods without a body) and concrete
-    methods (methods with a body).
-
-    Here's an example to illustrate:
  */
-    abstract class Animals {
-        // Abstract method (does not have a body)
-        public abstract void sound();
 
-        // Regular method
-        public void eat() {
-            System.out.println("This animal eats food.");
-        }
+/**
+ * Abstract Class Example ::
+ * An abstract class is a class that cannot be instantiated, meaning you cannot create an object of
+ * an abstract class. It can have abstract methods (methods without a body) and concrete
+ * methods (methods with a body).
+ */
+
+abstract class Animals {
+    // Abstract method (does not have a body)
+    public abstract void sound();
+
+    // Regular method
+    public void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+
+
+class Dogs extends Animals {
+    // Provide implementation for the abstract method
+    public void sound() {
+        System.out.println("The dog barks.");
     }
 
-    class Dogs extends Animals {
-        // Provide implementation for the abstract method
-        public void sound() {
-            System.out.println("The dog barks.");
-        }
-        public void eat() {
-            System.out.println("wo bolne lga.");
-        }
+    public void eat() {
+        System.out.println("Monkey Eating Banana !!");
     }
+}
 
 public class abstraction {
-
-        public static void main(String[] args) {
-            Dogs dog = new Dogs();
-            dog.sound(); // Output: The dog barks.
-            dog.eat();   // Output: This animal eats food.
-        }
+    public static void main(String[] args) {
+        Animals animals = new Animals() {
+            @Override
+            public void sound() {
+                System.out.println("not any wild things perform!!");
+            }
+        };
+        animals.sound();
+        Dogs dog = new Dogs();
+        dog.sound();
+        dog.eat();
     }
+}
 
 /*
-    In this example:
-
     Animal is an abstract class with an abstract method sound() and a regular method eat().
     Dog is a subclass of Animal and provides an implementation for the abstract method sound().
     In the Main class, we create an object of Dog and call its methods.

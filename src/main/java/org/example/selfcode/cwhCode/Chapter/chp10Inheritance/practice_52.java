@@ -1,4 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp10_inheritance;
+package org.example.selfcode.cwhCode.Chapter.chp10Inheritance;
 
 class Circle{
     public int radius;
@@ -27,7 +27,7 @@ class Cylinder1 extends Circle{
     }
 }
 
-    public class p52ractice {
+    public class practice_52 {
             public static void main(String[] args) {
         // Problem 1
         // Circle objC = new Circle(12);

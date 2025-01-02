@@ -1,26 +1,19 @@
-package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps.example;//package Java.chp08_intro_opps.example;
-//
-//public class interview {
-//
-//    Java में ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग (OOP) के बारे में पूछे जाने वाले इंटरव्यू प्रश्न आपके OOP अवधारणाओं की समझ, Java में इनके अनुप्रयोग, और आपके प्रोग्रामिंग कौशल को परखते हैं। यहां कुछ बेहतरीन OOP इंटरव्यू प्रश्न हैं जो अक्सर पूछे जाते हैं:
-//
-//    बेसिक OOP अवधारणाएँ:
-//    OOP क्या है और इसके चार प्रमुख सिद्धांत क्या हैं?
-//
-//    उत्तर: OOP का मतलब ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग है। इसके चार प्रमुख सिद्धांत हैं: इनकैप्सुलेशन, इनहेरिटेंस, पॉलीमॉरफिज्म, और एब्स्ट्रैक्शन।
-//    इनकैप्सुलेशन (Encapsulation) क्या है? इसका उदाहरण दें।
-//
-//    उत्तर: इनकैप्सुलेशन डेटा को और मेथड्स को एक यूनिट में बांधने की प्रक्रिया है। उदाहरण: एक क्लास जिसमें प्राइवेट डेटा मेम्बर्स और पब्लिक मेथड्स होते हैं।
-//    एब्स्ट्रैक्शन (Abstraction) क्या है? इसका उदाहरण दें।
-//
-//    उत्तर: एब्स्ट्रैक्शन जटिलता को छिपाने और केवल आवश्यक विवरणों को दिखाने की प्रक्रिया है। उदाहरण: एब्स्ट्रैक्ट क्लास या इंटरफेस।
-//    इनहेरिटेंस (Inheritance) क्या है? इसका उदाहरण दें।
-//
-//    उत्तर: इनहेरिटेंस एक क्लास को दूसरी क्लास की विशेषताओं और मेथड्स को विरासत में देने की प्रक्रिया है। उदाहरण: class Dog extends Animal.
-//            पॉलीमॉरफिज्म (Polymorphism) क्या है? इसका उदाहरण दें।
-//
-//    उत्तर: पॉलीमॉरफिज्म का मतलब है एक मेथड के कई रूप होना। उदाहरण: मेथड ओवरलोडिंग और मेथड ओवरराइडिंग।
-//    इन-डेप्थ प्रश्न:
+package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps.example;
+
+/**
+ * OOP क्या है और इसके चार प्रमुख सिद्धांत क्या हैं?
+ * उत्तर: OOP का मतलब ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग है। इसके चार प्रमुख सिद्धांत हैं: इनकैप्सुलेशन, इनहेरिटेंस, पॉलीमॉरफिज्म, और एब्स्ट्रैक्शन।
+ * इनकैप्सुलेशन (Encapsulation) क्या है? इसका उदाहरण दें।
+ * उत्तर: इनकैप्सुलेशन डेटा को और मेथड्स को एक यूनिट में बांधने की प्रक्रिया है। उदाहरण: एक क्लास जिसमें प्राइवेट डेटा मेम्बर्स और पब्लिक मेथड्स होते हैं।
+ * एब्स्ट्रैक्शन (Abstraction) क्या है? इसका उदाहरण दें।
+ * उत्तर: एब्स्ट्रैक्शन जटिलता को छिपाने और केवल आवश्यक विवरणों को दिखाने की प्रक्रिया है। उदाहरण: एब्स्ट्रैक्ट क्लास या इंटरफेस।
+ * इनहेरिटेंस (Inheritance) क्या है? इसका उदाहरण दें।
+ * उत्तर: इनहेरिटेंस एक क्लास को दूसरी क्लास की विशेषताओं और मेथड्स को विरासत में देने की प्रक्रिया है। उदाहरण: class Dog extends Animal.
+ * पॉलीमॉरफिज्म (Polymorphism) क्या है? इसका उदाहरण दें।
+ * उत्तर: पॉलीमॉरफिज्म का मतलब है एक मेथड के कई रूप होना। उदाहरण: मेथड ओवरलोडिंग और मेथड ओवरराइडिंग।
+ */
+
+
 //    इनकैप्सुलेशन और एब्स्ट्रैक्शन के बीच अंतर समझाएँ।
 //
 //    उत्तर: इनकैप्सुलेशन डेटा और कोड को एक यूनिट में बांधता है और बाहरी हस्तक्षेप से सुरक्षित रखता है। एब्स्ट्रैक्शन जटिलता को छिपाता है और केवल आवश्यक विवरणों को दिखाता है।
@@ -39,85 +32,75 @@ package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps.example;//package Ja
 //    प्रैक्टिकल और कोडिंग प्रश्न:
 //    एक सिंपल क्लास डिज़ाइन करें जिसमें इनकैप्सुलेशन का उपयोग हो।
 //
-//    java
-//    Copy code
-//    public class Person {
-//        private String name;
-//        private int age;
-//
-//        public String getName() {
-//            return name;
-//        }
-//
-//        public void setName(String name) {
-//            this.name = name;
-//        }
-//
-//        public int getAge() {
-//            return age;
-//        }
-//
-//        public void setAge(int age) {
-//            this.age = age;
-//        }
-//    }
+    class Person {
+        private String name;
+        private int age;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getAge() {
+            return age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+    }
 //    एक एब्स्ट्रैक्ट क्लास और उसकी सबक्लास का उदाहरण दें।
-//
-//    java
-//    Copy code
 //    abstract class Animal {
 //        abstract void sound();
 //    }
-//
+
 //    class Dog extends Animal {
 //        @Override
 //        void sound() {
 //            System.out.println("Bark");
 //        }
 //    }
+
+
 //    एक इंटरफेस और उसे इम्प्लीमेंट करने वाली क्लास का उदाहरण दें।
-//
-//    java
-//    Copy code
 //    interface Animal {
 //        void sound();
 //    }
-//
+
 //    class Dog implements Animal {
 //        @Override
 //        public void sound() {
 //            System.out.println("Bark");
 //        }
 //    }
+
 //    ओवरराइड और ओवरलोड का कोड उदाहरण दें।
-//
-//    java
-//    Copy code
 //    // Method Overloading
 //    class MathOperations {
 //        int add(int a, int b) {
 //            return a + b;
 //        }
-//
+
 //        int add(int a, int b, int c) {
 //            return a + b + c;
 //        }
 //    }
-//
+
 //    // Method Overriding
 //    class Animal {
 //        void sound() {
 //            System.out.println("Animal sound");
 //        }
 //    }
-//
+
 //    class Dog extends Animal {
 //        @Override
 //        void sound() {
 //            System.out.println("Bark");
 //        }
 //    }
-//    इन प्रश्नों और उनके उत्तरों से आप OOP अवधारणाओं में अपनी समझ को बेहतर बना सकते हैं और इंटरव्यू में अच्छा प्रदर्शन कर सकते हैं।
-//
-//
-//}
+public class interview {
+}

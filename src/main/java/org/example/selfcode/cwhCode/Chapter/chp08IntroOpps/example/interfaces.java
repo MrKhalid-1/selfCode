@@ -12,11 +12,16 @@ package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps.example;
 interface Animal {
     void sound(); // Interface method (does not have a body)
 
-    void eat();   // Interface method (does not have a body)
+    void eat();// Interface method (does not have a body)
 
 }
 
-class Dog implements Animal {
+interface lions{
+     void ror();
+     void lazy();
+}
+
+class Dog implements Animal,lions{
     // Provide implementation for the interface methods
     public void sound() {
         System.out.println("The dog barks.");
@@ -24,10 +29,21 @@ class Dog implements Animal {
 
     public void eat() {
         System.out.println("The dog eats food.");
+    }
+
+    // Provide implementation for the ror method from lions
+    public void ror() {
+        System.out.println("The lion roars.");
+    }
+
+    // Provide implementation for the lazy method from lions
+    public void lazy() {
+        System.out.println("The lion is lazy.");
     }
 }
 
 class sui implements Animal {
+
     // Provide implementation for the interface methods
     public void sound() {
         System.out.println("The dog barks.");
@@ -35,21 +51,40 @@ class sui implements Animal {
 
     public void eat() {
         System.out.println("The dog eats food.");
+    }
+    public void hear() {
+        System.out.println("The dog hear volumes.");
     }
 }
 
 public class interfaces {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        dog.sound(); // Output: The dog barks.
-        dog.eat();   // Output: The dog eats food.
+//        Dog dog = new Dog();
+//        dog.sound(); // Output: The dog barks.
+//        dog.eat();   // Output: The dog eats food.
+
+        sui sui = new sui();
+        sui.hear();
+
+        Animal animal = new Animal() {
+            @Override
+            public void sound() {
+                System.out.println("leran");
+            }
+
+            @Override
+            public void eat() {
+                System.out.println("eating while animals");
+            }
+        };
+
+        animal.eat();
     }
 }
 
 
 /*
     In this example:
-
     Animal is an interface with two method signatures: sound() and eat().
     Dog implements the Animal interface and provides implementations for both methods.
     In the Main class, we create an object of Dog and call its methods.

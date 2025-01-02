@@ -1,6 +1,6 @@
-package org.example.selfcode.cwhCode.Chapter.chp10_inheritance;
+package org.example.selfcode.cwhCode.Chapter.chp10Inheritance;
 
-public class e51xercise4_libery {
+public class exercise4Libery_51 {
     
 
 

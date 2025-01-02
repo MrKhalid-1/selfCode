@@ -1,4 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp10_inheritance;
+package org.example.selfcode.cwhCode.Chapter.chp10Inheritance;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -40,7 +40,7 @@ class Game{
     }
 
 }
-public class e50xercise3 {
+public class exercise3_50 {
 
     public static void main(String[] args) {
         /*

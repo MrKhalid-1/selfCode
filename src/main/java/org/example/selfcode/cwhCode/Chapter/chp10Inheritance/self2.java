@@ -1,4 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp10_inheritance;
+package org.example.selfcode.cwhCode.Chapter.chp10Inheritance;
 class phonix {
     public void call(){
         System.out.println("phone has ringing");

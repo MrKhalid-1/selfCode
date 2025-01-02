@@ -1,4 +1,30 @@
 package org.example.selfcode.cwhCode.Chapter.chp08IntroOpps;
+/***
+ * Class:
+ *
+ * A blueprint for creating objects.
+ * Example:
+ * class Animal {
+ *     String name; // Attribute
+ *     void eat() { // Method
+ *         System.out.println(name + " is eating.");
+ *     }
+ * }
+ */
+
+
+/**
+ * Object:
+ * An instance of a class.
+ * Example:
+ * public class Main {
+ *     public static void main(String[] args) {
+ *         Animal dog = new Animal(); // Creating an object
+ *         dog.name = "Dog";          // Setting attribute
+ *         dog.eat();                 // Calling method
+ *     }
+ * }
+ */
 
 /**
  * Object-Oriented Programming tries to map code instructions with real-world,  making the code short and easier

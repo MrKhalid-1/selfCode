@@ -1,7 +1,28 @@
-package org.example.selfcode.cwhCode.Chapter.chp11_abstract_cls_and_interface;
+package org.example.selfcode.cwhCode.Chapter.chp11AbstractClsAndInterface;
+/*
+interface Animal{
+    // Default method
+    default void say(){
+        System.out.println("Hello, this is default method");
+    }
+    // Abstract method
+    void bark();
+}
+public class CWH implements Animal{
+
+    @Override
+    public void bark() {
+        System.out.println("Dog barks!");
+    }
+    public static void main(String[] args) {
+        CWH obj1 = new CWH();
+        obj1.bark();
+        obj1.say();
+    }}
+ */
 
 
-interface MyCamera2{
+interface MyCamera{
     void takeSnap();
     void recordVideo();
     private void greet(){
@@ -13,12 +34,12 @@ interface MyCamera2{
     }
 }
 
-interface MyWifi2{
+interface MyWifi{
     String[] getNetworks();
     void connectToNetwork(String network);
 }
 
-class MyCellPhone2{
+class MyCellPhone{
     void callNumber(int phoneNumber){
         System.out.println("Calling "+ phoneNumber);
     }
@@ -28,14 +49,14 @@ class MyCellPhone2{
 
 }
 
-class MySmartPhone2 extends MyCellPhone2 implements MyWifi2, MyCamera2{
+class MySmartPhone extends MyCellPhone implements MyWifi, MyCamera{
     public void takeSnap(){
         System.out.println("Taking snap");
     }
     public void recordVideo(){
         System.out.println("Taking snap");
     }
-    //    public void record4KVideo(){
+//    public void record4KVideo(){
 //        System.out.println("Taking snap and recoding in 4k");
 //    }
     public String[] getNetworks(){
@@ -46,24 +67,15 @@ class MySmartPhone2 extends MyCellPhone2 implements MyWifi2, MyCamera2{
     public void connectToNetwork(String network){
         System.out.println("Connecting to " + network);
     }
-    public void sampleMeth(){
-        System.out.println("meth");
+}
+public class i57nterface_ex_and_defalutumethod{
+    public static void main(String[] args) {
+        MySmartPhone ms = new MySmartPhone();
+        ms.record4KVideo();
+        // ms.greet(); --> Throws an error!
+        String[] ar = ms.getNetworks();
+        for (String item: ar) {
+            System.out.println(item);
+        }
     }
 }
-
-    public class p59oly_in_interface {
-        public static void main(String[] args) {
-        MyCamera2 cam1 = new MySmartPhone2(); // This is a smartphone but, use it as a camera
-        // cam1.getNetworks(); --> Not allowed
-        // cam1.sampleMeth(); --> Not allowed
-
-        cam1.record4KVideo();
-
-        MySmartPhone2 s = new MySmartPhone2();
-        s.sampleMeth();
-        s.recordVideo();
-        s.getNetworks();
-        s.callNumber(7979);
-    }
-}
-

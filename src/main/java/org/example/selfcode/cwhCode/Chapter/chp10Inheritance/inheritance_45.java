@@ -1,7 +1,4 @@
-package org.example.selfcode.cwhCode.Chapter.chp10_inheritance;
-
-
-
+package org.example.selfcode.cwhCode.Chapter.chp10Inheritance;
 /*
 class Subclass-name extends Superclass-name
 {
@@ -12,7 +9,6 @@ public class dog extends Animal {
     // code
        }
  */
-
 
 class Base {
     public int x;
@@ -43,7 +39,7 @@ class Derived extends Base {
     }
 }
 
-public class i45nheritance {
+public class inheritance_45 {
 
     public static void main(String[] args) {
         // Creating an Object of base class
