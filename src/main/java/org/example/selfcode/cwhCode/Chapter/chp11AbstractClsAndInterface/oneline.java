@@ -1,64 +1,68 @@
 package org.example.selfcode.cwhCode.Chapter.chp11AbstractClsAndInterface;
 
-//
-//
-//abstract class productlist {
-//    abstract String name();
-//    abstract int s(int d);
-//    static void staticMethod() {
-//        System.out.println("This is a static method in an abstract class.");
-//    }
-//    public void num(int e){
-//        System.out.println(e + e + ": is the number of we get");
-//    }
-//}
-//abstract class sona  {
-//    abstract String name1();
-//    static void staticMethod() {
-//        System.out.println("This is a static method in an abstract class.");
-//    }
-//    public void num(int e){
-//        System.out.println(e + e + ": is the number of we get");
-//    }
-//}
-//class hum extends productlist{
-//
-//    @Override
-//    public String  name() {
-//       return "hum hai yum";
-//    }
-//
-//    @Override
-//    int s(int d) {
-//        return d;
-//    }
-//}
-//class uie extends hum{
-//
-//}
-//// Interface
-//interface Drawable {
-//    void draw();
-//    default void sor(int d){
-//        System.out.println(d);
-//    }
-//    static void sore(int d){
-//        System.out.println(d);
-//    }
-//}
-// class Circle implements Drawable {
-//    @Override
-//    public void draw() {
-//        System.out.println("Drawing a circle.");
-//    }
-//
-//}
-// class Rectangle implements Drawable {
-//    @Override
-//    public void draw() {
-//        System.out.println("Drawing a rectangle.");
-//    }
-//}
+/***
+abstract class productlist {
+    abstract String name();
+    abstract int s(int d);
+    static void staticMethod() {
+        System.out.println("This is a static method in an abstract class.");
+    }
+    public void num(int e){
+        System.out.println(e + e + ": is the number of we get");
+    }
+}
+
+abstract class sona  {
+    abstract String name1();
+    static void staticMethod() {
+        System.out.println("This is a static method in an abstract class.");
+    }
+    public void num(int e){
+        System.out.println(e + e + ": is the number of we get");
+    }
+}
+
+class hum extends productlist{
+
+    @Override
+    public String  name() {
+       return "hum hai yum";
+    }
+
+    @Override
+    int s(int d) {
+        return d;
+    }
+}
+class uie extends hum{
+
+}
+
+ Interface
+interface Drawable {
+    void draw();
+    default void sor(int d){
+        System.out.println(d);
+    }
+    static void sore(int d){
+        System.out.println(d);
+    }
+}
+ class Circle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a circle.");
+    }
+
+}
+ class Rectangle implements Drawable {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a rectangle.");
+    }
+}
+ *
+ */
 interface A {
     void methodA();
 }
@@ -79,18 +83,18 @@ class C implements A, B {
         // Implementation
     }
 }
-// class R implements A ,B { // Compilation error: Cannot have multiple
+ class R implements A ,B { // Compilation error: Cannot have multiple
 // inheritance
-// @Override
-// void methodA() {
-// System.out.println("Method A");
-// }
+ @Override
+ public void methodA() {
+ System.out.println("Method A");
+ }
 
-// @Override
-// void methodB() {
-// System.out.println("Method B");
-// }
-// }
+     @Override
+     public void methodB() {
+         System.out.println("Method B");
+     }
+ }
 // public class oneline {
 // public static void main(String[] args) {
 // R obj = new R();
